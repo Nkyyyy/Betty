@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints all possible combinations of two two-digit numbers
+ * main - prints 4 digits seperated by space and coma
  *
  * Return: always (0)
  *
