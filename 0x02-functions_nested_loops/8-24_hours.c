@@ -2,7 +2,6 @@
 /**
  * jack_bauer -  prints time in min. for 24 hours
  *
- *
  */
 void jack_bauer(void)
 {
