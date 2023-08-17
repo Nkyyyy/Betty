@@ -3,7 +3,6 @@
 #include <stdarg.h>
 /**
  * print_all - function that prints anything.
- * @char: pointer to a character
  * @format: list of types of arguments passed to the function
  */
 void print_all(const char * const format, ...)
@@ -22,19 +21,19 @@ void print_all(const char * const format, ...)
 			switch(format[i])
 			{
 				case 'c':
-					printf("%s%c", sep, va_arg(list,int));				
+					printf("%s %c", sep, va_arg(list,int));
 					break;
 				case 'i':
-					printf("%s%d", sep, va_arg(list, int));
+					printf("%s %d", sep, va_arg(list, int));
 					break;
 				case 'f':
-					printf("%s%f", sep, va_arg(list, double));
+					printf("%s %f", sep, va_arg(list, double));
 					break;
 				case 's':
 					str = va_arg(list, char *);
 					if (!str)
 						str = "(nil)";
-					printf("%s%s", sep, str);
+					printf("%s %s", sep, str);
 					break;
 				default:
 					i++;
