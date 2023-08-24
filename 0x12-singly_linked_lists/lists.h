@@ -5,10 +5,9 @@
 #include <stdio.h>
 #include <string.h>
 
-
 /**
  * struct list_s - singly linked list				
- * @str: string: string (malloced string)
+ * @str: string string (malloced string)
  * @len: lenght of the string
  * @next: pointer to the next node
  */
