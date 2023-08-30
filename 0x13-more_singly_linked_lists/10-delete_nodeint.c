@@ -1,5 +1,3 @@
-10-delete_nodeint.c
-
 #include "lists.h"
 
 /**
